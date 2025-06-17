@@ -1,0 +1,18 @@
+--index-url https://download.pytorch.org/whl/rocm6.3
+torch
+torchvision
+torchaudio
+
+pyyaml
+
+astunparse==1.6.2
+colorlover
+dash>=1.12.0
+matplotlib
+pymongo
+tabulate
+tqdm
+dash-svg
+dash-bootstrap-components
+kaleido
+plotille

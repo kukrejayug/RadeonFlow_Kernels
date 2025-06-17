@@ -1,0 +1,19 @@
+{
+    "cases": [0],
+    "subcase_indexes": [3],
+    "tunables" :{
+        "SCHEDULER_BLOCK_COUNT":{
+            "index": 10,
+            "min": 512,
+            "max": 768,
+            "inc": 256
+        },
+        "SPLITK_FACTOR_ROUTED_FC1":{
+            "index": 6,
+            "min": 1,
+            "max": 2,
+            "inc": 1,
+            "case_specific": [3]
+        }
+    }
+} 

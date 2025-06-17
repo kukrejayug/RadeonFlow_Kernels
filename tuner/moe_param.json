@@ -1,0 +1,40 @@
+{
+    "cases": [0, 1],
+    "subcase_indexes": [3, 4, 5, 6],
+    "tunables" :{
+        "SCHEDULER_BLOCK_COUNT":{
+            "index": 10,
+            "min": 256,
+            "max": 1024,
+            "inc": 128
+        },
+        "SPLITK_FACTOR_ROUTED_FC1":{
+            "index": 6,
+            "min": 1,
+            "max": 4,
+            "inc": 1,
+            "case_specific": [3]
+        },
+        "SPLITK_FACTOR_ROUTED_FC2":{
+            "index": 7,
+            "min": 1,
+            "max": 4,
+            "inc": 1,
+            "case_specific": [4]
+        },
+        "SPLITK_FACTOR_SHARED_FC1":{
+            "index": 8,
+            "min": 1,
+            "max": 4,
+            "inc": 1,
+            "case_specific": [5]
+        },
+        "SPLITK_FACTOR_SHARED_FC2":{
+            "index": 9,
+            "min": 1,
+            "max": 4,
+            "inc": 1,
+            "case_specific": [6]
+        }
+    }
+}

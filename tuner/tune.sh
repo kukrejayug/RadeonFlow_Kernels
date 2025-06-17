@@ -1,0 +1,1 @@
+python3 tuner/moe_tuner.py --param-file tuner/moe_param_test.json --workspace /tmp/moe_tuning_test

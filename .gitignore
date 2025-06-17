@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+build/
+.cache/
+.vscode/
+submission.py
+submission.py.bak
+config.cmake
+*.o
+*.hip
+*.csv
+gpucore.*
+*.log
+*.so
